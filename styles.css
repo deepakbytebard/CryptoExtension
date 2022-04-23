@@ -1,0 +1,18 @@
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.container-fluid{
+    justify-content: center !important;
+    text-align: center;
+}
+
+.sub-heading{
+    color: red;
+    /* position: relative; */
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: baseline;
+}
+

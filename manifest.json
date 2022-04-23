@@ -1,0 +1,13 @@
+{
+    "name": "Crypto Status",
+    "description":"Tells about CryptoCurrency Market Value",
+    "version":"1.0",
+    "manifest_version":3,
+    
+   
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Crypto-Status",
+        "default_icon":"Images/CryptoCurrency.png"
+    }
+}
