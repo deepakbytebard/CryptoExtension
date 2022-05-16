@@ -6,13 +6,32 @@ img{
 .container-fluid{
     justify-content: center !important;
     text-align: center;
+    
 }
 
-.sub-heading{
-    color: red;
-    /* position: relative; */
-    margin-top: 10vh;
-    text-align: center;
-    justify-content: baseline;
+.navbar-brand{
+    font-size: smaller;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body {
+    scrollbar-width:20px;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(76, 109, 128);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
 }
 
