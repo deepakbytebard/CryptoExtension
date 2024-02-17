@@ -17,7 +17,6 @@ fetch(`${proxyUrl}${baseUrl}`, {
   .then((response) => {
     if (response.ok) {
       response.json().then((json) => {
-        console.log(json.data, "ffffffffffff");
         let coinsData = json.data.coins;
 
         if (coinsData.length > 0) {
